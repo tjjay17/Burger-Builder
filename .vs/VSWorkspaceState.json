@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
+    "\\src\\Assets",
+    "\\src\\Assets\\Images",
     "\\src\\Components",
-    "\\src\\Components\\Burger",
-    "\\src\\Components\\Burger\\BurgerIngredient",
-    "\\src\\Containers",
-    "\\src\\Containers\\BurgerBuilder"
+    "\\src\\Components\\Burger\\BurgerControls",
+    "\\src\\Components\\Burger\\OrderSummary",
+    "\\src\\Components\\Navigation",
+    "\\src\\Components\\Navigation\\NavigationItems",
+    "\\src\\Components\\Navigation\\NavigationItems\\NavigationItem"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\Components\\Navigation\\NavigationItems\\NavigationItems.js",
   "PreviewInSolutionExplorer": false
 }

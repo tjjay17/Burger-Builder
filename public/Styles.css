@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f5efef;
 }
 
 .layoutContainer{
-    margin-top:10px;
+    margin-top:60px;
 }
 
 .breadBottom {
@@ -54,14 +56,14 @@ body{
 
 .burger{
     width:100%;
-    margin:auto;
-    height:250px;
+    display:inline-block;
+    height:200px;
     overflow:auto;
     text-align:center;
     font-weight:bold;
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
+/*@media (min-width: 1000px) and (min-height: 700px) {
     .burger {
         width: 700px;
         height: 600px;
@@ -70,7 +72,7 @@ body{
 
 @media (min-width:500px) and (min-height:401px) {
     .burger {
-        height: 400px;
+        height: 370px;
         width: 450px;
     }
 }
@@ -80,11 +82,163 @@ body{
         height: 250px;
         width: 200px;
     }
-}
-
+}*/
 .addToppings{
     font-family:sans-serif;
 }
+
+.controlContainer{
+    display:flex;
+    flex-flow:row wrap;
+    margin:0 39%;
+    width:100%;
+    align-items:center;
+    padding:0;
+
+}
+
+.Controls {
+    width: 100%;
+    background-color: #283148;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Alata', sans-serif;
+    padding-bottom: 2%;
+}
+
+.remove, .add {
+    margin-left: 2%;
+    width: 5%;
+    height: 5%;
+    font-family: 'Alata', sans-serif;
+}
+
+.remove {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.add {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.controlLabel{
+    flex-basis:5%;
+}
+
+.price{
+    margin-top:1%;
+    margin-bottom:0;
+}
+
+@media screen and (min-width:800px){
+    .burger{
+        width:400px;
+        height:300px;
+    }
+
+    .burgerContainer{
+        width:100%;
+        text-align:center;
+    }
+
+    .remove,.add{
+        width:7%;
+    }
+}
+
+/*@media screen and (max-width:){
+    .controlLabel{
+        flex-basis:2%;
+    }
+}
+    */
+
+.orderNow {
+    color: black;
+    padding: 1% 2%;
+    margin: 0 auto;
+    font-family: 'Alata', sans-serif;
+    background-color:orange;
+    border:1px solid blue;
+}
+
+.orderNow:focus{
+    outline:none;
+}
+
+.orderSummary{
+   
+}
+
+.messageContainer {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.backDrop{
+    width:100vw;
+    height:100vh;
+    opacity:0.4;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+    background-color:black;
+}
+
+.toolBar {
+    width: 100%;
+    z-index: 90;
+    background-color: #c87941;
+    position: fixed;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.burgerLogo{
+    height:40px;
+}
+
+.orderCancel{
+    color:red;
+    border:none;
+    background-color:transparent;
+}
+
+.orderPlace {
+    color: green;
+    border: none;
+    background-color: transparent;
+}
+
+.greyOut {
+    background-color: grey;
+    opacity: 0.3;
+    padding: 1% 2%;
+    margin: 0 auto;
+}
+
 
 
 
