@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Components",
+    "\\src\\Components\\UI",
+    "\\src\\Components\\UI\\BackDrop",
+    "\\src\\Components\\UI\\MessageBoard",
+    "\\src\\Containers",
+    "\\src\\Containers\\BurgerBuilder",
+    "\\src\\hoc"
+  ],
+  "SelectedNode": "\\src\\Containers\\BurgerBuilder\\BurgerBuilder.js",
+  "PreviewInSolutionExplorer": false
+}
