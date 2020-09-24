@@ -1,3 +1,9 @@
+
+### Description
+
+This is an app I am following along with to learn about authentication, redux and other concepts that I need more coverage in.
+It simply allows for creating a burger and placing orders to a database.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,6 +73,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-### Description
-
-This is an app I am following along with to learn about authentication, redux and other concepts that I need more coverage in.
